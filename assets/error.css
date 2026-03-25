@@ -1,10 +1,18 @@
 body {
     background: #1e1e2e;
-    font-family: 'Jetbrains Nerd Font', Arial, sans-serif;
+    font-family: 'JetBrains Mono Nerd Font', monospace;
     color: #cdd6f4;
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: 'JetBrains Mono Nerd Font';
+    src: url('/assets/NerdFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}   
 
 #plattform {
     max-width: 370px;
